@@ -45,12 +45,6 @@ Opportunities that do not progress can be moved to `Lost` at any time.
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    UI["React dashboard"] --> API["Next.js API route"]
-    API --> ORM["Drizzle ORM"]
-    ORM --> DB["Cloudflare D1"]
-```
 
 ## Technology stack
 
